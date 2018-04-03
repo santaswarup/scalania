@@ -1,5 +1,5 @@
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
-
+//scalacOptions += "-Xprint:typer"
 scalacOptions in Test += "-Yrangepos"
 scapegoatVersion := "1.1.0"
 
@@ -16,3 +16,6 @@ addCommandAlias("check", "; clean; update; test:update; project answers; scalast
 scapegoatDisabledInspections := Seq("X")
 scapegoatEnabledInspections := Seq("ArraysToString")
 scapegoatIgnoredFiles := Seq("X")
+
+
+//wartremoverErrors ++= Warts.all

@@ -1,8 +1,8 @@
 
-name := s"${(name in Global).value}-${name.value}"
+name := s"exercises"
 
 //scalastyleConfig := file("project/scalastyle-config.xml")
-scalastyleFailOnError := true
+//scalastyleFailOnError := true
 
 
 //scapegoatDisabledInspections := Seq("X")
