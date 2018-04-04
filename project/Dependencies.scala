@@ -1,7 +1,7 @@
 import sbt._
 
 object Version {
-  val scala     = "2.11.6"
+  val scala     = "2.11.12"
   val scalaTest = "2.2.4"
   val specs2    = "2.4.5"
 }

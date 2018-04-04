@@ -18,4 +18,5 @@ scapegoatEnabledInspections := Seq("ArraysToString")
 scapegoatIgnoredFiles := Seq("X")
 
 
+
 //wartremoverErrors ++= Warts.all

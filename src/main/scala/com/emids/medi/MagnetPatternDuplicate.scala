@@ -1,6 +1,6 @@
 package com.emids.medi
 
-object MagnetPattern extends App {
+object MagnetPatternDuplicate extends App {
 
   trait MyMagnet { // should probably be sealed
     type Result

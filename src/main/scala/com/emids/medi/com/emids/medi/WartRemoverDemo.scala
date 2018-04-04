@@ -2,10 +2,9 @@ package com.emids.medi.com.emids.medi
 
 class WartRemoverDemo {
 
-
   var x = 10
 
-  while(x < 1000) {
+  while (x < 1000) {
     println(x)
     x += 100
   }

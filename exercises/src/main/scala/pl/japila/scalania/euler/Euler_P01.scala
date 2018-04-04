@@ -6,6 +6,7 @@ object Euler_P01 {
     findSumOfMultiplies
   )
 
-  def findSumOfMultiplies: (Int, Int, Int) => Int = (a: Int, b: Int, limit: Int) => ???
+  def findSumOfMultiplies: (Int, Int, Int) => Int =
+    (a: Int, b: Int, limit: Int) => ???
 
 }

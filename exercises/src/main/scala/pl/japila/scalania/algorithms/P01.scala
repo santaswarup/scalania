@@ -10,9 +10,9 @@ object P01 {
   case class Link(s1: Site, s2: Site)
 
   /**
-   * Checks whether two sites belong to the same component which is a group of connected sites
-   *
-   * @return true when sites are connected; false otherwise
-   */
+    * Checks whether two sites belong to the same component which is a group of connected sites
+    *
+    * @return true when sites are connected; false otherwise
+    */
   def isConnected(s1: Site, s2: Site, ls: Seq[Link]): Boolean = ???
 }
