@@ -7,6 +7,12 @@ resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositori
 
 resolvers += "Typesafe Repository" at "https://repo.typesafe.com/typesafe/releases/"
 
+//scala sstyle plugin
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+
+//scapegoat plugin
+addSbtPlugin("com.sksamuel.scapegoat" %% "sbt-scapegoat" % "1.0.4")
+
 //scoverage plugin
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")
 
@@ -18,11 +24,7 @@ addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")
 //Wart remover Plugin
 addSbtPlugin("org.wartremover" % "sbt-wartremover" % "2.2.1")
 
-//scala sstyle plugin
-addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
 
-//scapegoat plugin
-addSbtPlugin("com.sksamuel.scapegoat" %% "sbt-scapegoat" % "1.0.4")
 
 //cpd plugin
 addSbtPlugin("com.github.sbt" % "sbt-cpd" % "2.0.0")
