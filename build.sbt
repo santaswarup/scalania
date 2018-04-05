@@ -19,4 +19,4 @@ addCommandAlias("check", "; clean; update; test:update; project answers; scalast
 
 
 
-//swartremoverErrors ++= Warts.all
+//wartremoverErrors ++= Warts.all
