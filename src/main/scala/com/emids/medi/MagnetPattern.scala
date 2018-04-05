@@ -1,6 +1,6 @@
 package com.emids.medi
 
-import scala.language.implicitConversions
+//import scala.language.implicitConversions
 
 object MagnetPattern extends App {
 

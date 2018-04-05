@@ -13,10 +13,10 @@ lazy val answers = project dependsOn (exercises % "test->test")
 
 addCommandAlias("check", "; clean; update; test:update; project answers; scalastyle; coverage; test; coverageReport; coveralls")
 
-scapegoatDisabledInspections := Seq("X")
-scapegoatEnabledInspections := Seq("ArraysToString")
-scapegoatIgnoredFiles := Seq("X")
+//scapegoatDisabledInspections := Seq("X")
+//scapegoatEnabledInspections := Seq("ArraysToString")
+//scapegoatIgnoredFiles := Seq("X")
 
 
 
-//wartremoverErrors ++= Warts.all
+//swartremoverErrors ++= Warts.all

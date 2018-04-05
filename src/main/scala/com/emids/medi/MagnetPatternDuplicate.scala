@@ -1,5 +1,5 @@
 package com.emids.medi
-
+//import scala.language.implicitConversions
 object MagnetPatternDuplicate extends App {
 
   trait MyMagnet { // should probably be sealed
