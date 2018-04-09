@@ -19,7 +19,7 @@ people learning (and ultimately mastering) Scala while solving problems describe
 
 [Warsaw Scala Enthusiasts](http://warsawscala.pl/) group has been using the project quite regularly during their meetups.
 
-## How to get started with the project
+## How to get started with this project
 
 * In the directory where you downloaded (cloned) the `scalania` project, e.g. `~/oss/scalania`, run `./activator` (on Mac OS/Linux) or `activator` (on Windows).
 
